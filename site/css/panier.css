@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Serif+Display&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    background-image: url(../img/abs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+table {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top :50px;
+	width : 60%;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #ffffff;
+    background-color: black;
+}
+
+nav h1 a{
+    color: rgb(255, 168, 46);
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.blanc {
+	
+color : white;
+font-size : 20px;
+text-shadow: 5px 5px 10px black;
+
+}
+
+.blanc img{
+    max-height: 60px;
+    margin: auto;
+}
+
+
+.dom{
+    font-size: 25px;
+    color: #ffffff;
+    margin-left: 150px;
+    text-shadow: 5px 5px 10px black;
+}
+.blanc2 {
+	
+    color : white;
+    font-size : 20px;
+    margin-left: 150px;
+    
+    }
+.centre {
+	
+color : white;
+text-align : center;
+font-size : 22px;
+text-shadow: 5px 5px 10px black;
+}
+
+
+
+nav .menu{
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+nav .menu a{
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 5px;
+
+}
+
+nav .menu a:hover {
+    border-color: rgb(255, 167, 45);
+}

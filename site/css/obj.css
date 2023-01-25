@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Serif+Display&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    background-color: rgb(255, 255, 255);
+
+}
+h1{
+    text-align: center;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #ffffff;
+    background-color: black;
+}
+
+nav h1 a{
+    color: rgb(255, 168, 46);
+    font-size: 30px;
+    text-decoration: none;
+}
+
+nav .menu{
+    margin-top: 3px;
+    margin-left: 300px;
+}
+
+nav .menu a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 10px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 5px;
+
+}
+
+nav .menu a:hover {
+    border-color: rgb(255, 167, 45);
+}
+
+header{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/test.jpeg);
+	background-attachment: fixed;
+    background-position: center;
+	background-size: cover;
+    align-items: center;
+    padding: 40px;
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+   
+}
+
+header img{
+    width: 200px;
+}
+
+
+header h3{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.contenu{
+
+    margin-top: 30px;
+    color: #000000;
+    background-color: #ffffff;
+
+}
+
+.contenu h2{
+    color: rgb(255, 167, 45);
+    text-align: center;
+}
+
+.contenu h1{
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.masse,.seche{
+    padding: 15px;
+    border: 2px solid black;
+    margin: 20px;
+}
+
+.seche{
+    margin-top: 50px;
+}
+
+.boutons{
+    margin: 20px auto;
+    text-align: center;
+    max-height: fit-content;
+}
+
+.boutons a{
+    display: inline-block;
+    width: 200px;
+    padding: 15px;
+    border: 1px solid rgb(255, 167, 45);
+    border-radius: 15px;
+    background-color:  rgb(255, 167, 45);
+    color: black;
+    border: none;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+
+.boutons a:hover{
+    background-color: rgb(254, 186, 68);
+}
+
+footer{
+    border-top: 5px solid #ffffff;
+    background-color: black;
+    padding: 30px 100px;
+    color: white;
+}
+
+footer .content {
+    color: rgb(255, 167, 45);
+    margin-bottom: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 45%;
+
+}
+
+footer .content i{
+    justify-content: space-between;
+    margin-right: 15px;
+    font-size: 50px;
+}
+
+
+footer h2{
+    border-bottom: 1px solid white;
+    width: 35%;
+    padding-bottom: 5px;
+}
+
+footer .content i:hover{
+    color:rgb(254, 182, 57) ;
+}
+
+
+@media screen and (max-width:990px){
+    nav .menu{
+        margin-left: 0px;
+        margin-bottom: 20px;
+        display: block;
+    }
+
+    nav h1 {
+        width: max-content;
+    }
+
+    .boutons a{
+        margin-top: 10px;
+    }
+}

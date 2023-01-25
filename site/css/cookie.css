@@ -1,0 +1,44 @@
+.cookie-alert {
+    position: fixed;
+    bottom: 20px;
+    right:20px;
+    border-radius: 10px;
+    background:rgba(101, 101, 101, 0.5);
+    color:#fff;
+    padding:10px 15px;
+    width:30%;
+    z-index:100;
+	font-size : 20px;
+	
+	
+ }
+
+ .cookie-alert a {
+    display:block;
+    text-align: center;
+    padding:5px 10px;
+    margin:8px auto 0 auto;
+    border-radius: 10px;
+    background:transparent;
+    border: 2px solid #ffffff;
+    color:#ffffff;
+    transition: all .3s ease;
+	font-size : 20px;
+}
+    
+
+.cookie-alert a:hover {
+    background: #f88214;   
+    color:#2f2f2f;
+	
+    }
+    
+ @media only screen and (max-width:480px) {
+    .cookie-alert {
+       text-align: center;
+       left: 0; right: 0;
+       margin: 0 auto;
+       max-width:700px;
+       padding:10px 30px;
+    }
+ }

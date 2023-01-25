@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Serif+Display&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    background-image: url(../img/salle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #ffffff;
+    background-color: black;
+}
+
+nav h1 a{
+    color: rgb(255, 168, 46);
+    font-size: 30px;
+    text-decoration: none;
+}
+
+
+
+nav .menu{
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+nav .menu a{
+    color: rgb(255, 255, 255);
+    margin-right: 10px;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 5px;
+
+}
+
+nav .menu a:hover {
+    border-color: rgb(255, 167, 45);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*.formulaire-gauche{
+    text-align: center;
+    width: fit-content;
+    float: left;
+    margin-left: 15%;
+}*/
+
+.formulaire-gauche{
+	position: relative;
+	width: fit-content;
+	height: fit-content;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	color : white;
+	padding: 20px 100px;
+}
+
+.formulaire-gauche fieldset{
+    border-width:1px;
+    border-style:none;
+	background-color:rgba(10, 10, 10,0.5);
+}
+
+.formulaire-droite{
+	position: relative;
+	display :flex;
+	width: fit-content;
+	height: fit-content;
+	justify-content: center;
+	align-items: center;
+	color : white;
+	margin: 0 auto;
+	padding: 20px 100px;
+}
+
+h2{
+	text-shadow: 5px 5px 10px black;
+	
+}
+.formulaire-droite fieldset{
+    border-width:1px;
+    border-style:none;
+    background-color:rgba(10, 10, 10,0.5);
+}
+  
+
+.formulaire-droite form{
+    border-width:1px;
+    border-style:none;
+   background-color:rgba(10, 10, 10,0);
+}
+
+/*.formulaire-droit .droite{
+    text-align: center;
+    width: fit-content;
+    float: left;
+    margin-left: 5%;
+}
+
+*/
+.gauche img {
+    width : 660px;
+	padding-left :30px;
+	height : auto;
+	
+}
+
+.blanc{
+    margin-top: 30px;
+    color : white;
+    font-size : 20px;
+    text-shadow: 5px 5px 10px black;
+    margin-left: 150px;
+}
+
+.blanc u{
+    color : white;
+    font-size : 20px;
+    text-shadow: 5px 5px 10px black;
+}
+

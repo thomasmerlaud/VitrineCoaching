@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Serif+Display&display=swap');
+
+body{
+
+    font-family: 'Montserrat';
+
+}
+
+h1{
+    text-align: center;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #ffffff;
+    background-color: black;
+}
+
+nav h1 a{
+    color: rgb(255, 168, 46);
+    font-size: 30px;
+    text-decoration: none;
+}
+
+nav .menu{
+    margin-top: 3px;
+    margin-left: 300px;
+}
+
+nav .menu a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 10px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 5px;
+
+}
+
+nav .menu a:hover {
+    border-color: rgb(255, 167, 45);
+}
+
+header{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/mangermasse.jpeg);
+	background-attachment: fixed;
+    background-position: center;
+	background-size: cover;
+    align-items: center;
+    padding: 40px;
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+   
+}
+
+header img{
+    width: 200px;
+}
+
+header h1{
+
+    font-size: 50px;
+
+}
+
+header h3{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+table.blueTable {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+  }
+  table.blueTable td, table.blueTable th {
+    border: 1px solid #000000;
+    padding: 3px 2px;
+  }
+  table.blueTable tbody td {
+    font-size: 13px;
+  }
+  table.blueTable tr:nth-child(even) {
+    background: #E0E0E0;
+  }
+  table.blueTable thead {
+    background: #FF9D27;
+    background: -moz-linear-gradient(top, #ffb55d 0%, #ffa63c 66%, #FF9D27 100%);
+    background: -webkit-linear-gradient(top, #ffb55d 0%, #ffa63c 66%, #FF9D27 100%);
+    background: linear-gradient(to bottom, #ffb55d 0%, #ffa63c 66%, #FF9D27 100%);
+    border-bottom: 2px solid #444444;
+  }
+  table.blueTable thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+  }
+  table.blueTable tfoot td {
+    font-size: 14px;
+  }
+  table.blueTable tfoot .links {
+    text-align: right;
+  }
+  table.blueTable tfoot .links a{
+    display: inline-block;
+    color: #FFFFFF;
+    padding: 2px 8px;
+    border-radius: 5px;
+  }
+
+  footer{
+    margin-top: 40px;
+    border-top: 5px solid #ffffff;
+    background-color: black;
+    padding: 30px 100px;
+    color: white;
+}
+
+footer .content {
+    color: rgb(255, 167, 45);
+    margin-bottom: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 45%;
+
+}
+
+footer .content i{
+    justify-content: space-between;
+    margin-right: 15px;
+    font-size: 50px;
+}
+
+
+footer h2{
+    border-bottom: 1px solid white;
+    width: 35%;
+    padding-bottom: 5px;
+}
+
+footer .content i:hover{
+    color:rgb(254, 182, 57) ;
+}
+
+
+
+
+@media screen and (max-width:990px){
+    nav .menu{
+        margin-left: 0px;
+        margin-bottom: 20px;
+        display: block;
+    }
+
+    nav h1 {
+        width: max-content;
+    }
+}

@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Serif+Display&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    background-color: rgb(255, 255, 255);
+
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #ffffff;
+    background-color: black;
+}
+
+nav h1 a{
+    color: rgb(255, 168, 46);
+    font-size: 30px;
+    text-decoration: none;
+}
+
+nav .menu{
+    margin-top: 3px;
+    margin-left: 300px;
+}
+
+nav .menu a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 10px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 5px;
+
+}
+
+nav .menu a:hover {
+    border-color: rgb(255, 167, 45);
+}
+
+header{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/manger2.jpeg);
+	background-attachment: fixed;
+    background-position: center;
+	background-size: cover;
+    align-items: center;
+    padding: 40px;
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+   
+}
+
+header img{
+    width: 200px;
+}
+
+header h1{
+
+    font-size: 50px;
+
+}
+
+header h3{
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.hautpage{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    margin-right: 30px;
+    margin-left: 30px;
+    padding: 15px;
+}
+
+.hautpage h1{
+    text-align: center;
+    color: orange;
+}
+
+.hautpage p{
+    display: block;
+    margin-bottom: 20px;
+    color: black;
+    
+}
+
+.nutrition{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.nutrition .whey{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.nutrition .whey .left img{
+    max-width: 200px;
+    height: auto;
+    flex: 0 0 25%;
+    margin-right: 30px;
+}
+
+.nutrition .whey .right{
+    flex: 0 0 70%;
+    border: 3px solid white;
+    color: white;
+    padding: 15px;
+    background-color:rgb(36, 35, 35);
+
+}
+
+.nutrition .crea{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.nutrition .crea .left img{
+    max-width: 200px;
+    height: auto;
+    flex: 0 0 25%;
+    margin-right: 30px;
+}
+
+.nutrition .crea .right{
+    flex: 0 0 70%;
+    border: 3px solid white;
+    color: white;
+    padding: 15px;
+    background-color:rgb(36, 35, 35);
+
+}
+
+.nutrition .bcaa{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.nutrition .bcaa .left img{
+    max-width: 200px;
+    height: auto;
+    flex: 0 0 25%;
+    margin-right: 30px;
+}
+
+.nutrition .bcaa .right{
+    flex: 0 0 70%;
+    border: 3px solid white;
+    color: white;
+    padding: 15px;
+    background-color:rgb(36, 35, 35);
+
+}
+
+.nutrition .omega{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.nutrition .omega .left img{
+    max-width: 200px;
+    height: auto;
+    flex: 0 0 25%;
+    margin-right: 30px;
+}
+
+.nutrition .omega .right{
+    flex: 0 0 70%;
+    border: 3px solid white;
+    color: white;
+    padding: 15px;
+    background-color:rgb(36, 35, 35);
+
+}
+
+.nutrition .zinc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.nutrition .zinc .left img{
+    max-width: 200px;
+    height: auto;
+    flex: 0 0 25%;
+    margin-right: 30px;
+}
+
+.nutrition .zinc .right{
+    flex: 0 0 70%;
+    border: 3px solid white;
+    color: white;
+    padding: 15px;
+    background-color:rgb(36, 35, 35);
+
+}
+
+
+footer{
+    margin-top: 40px;
+    border-top: 5px solid #ffffff;
+    background-color: black;
+    padding: 30px 100px;
+    color: white;
+}
+
+footer .content {
+    color: rgb(255, 167, 45);
+    margin-bottom: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 45%;
+
+}
+
+footer .content i{
+    justify-content: space-between;
+    margin-right: 15px;
+    font-size: 50px;
+}
+
+
+footer h2{
+    border-bottom: 1px solid white;
+    width: 35%;
+    padding-bottom: 5px;
+}
+
+footer .content i:hover{
+    color:rgb(254, 182, 57) ;
+}
+
+
+
+
+@media screen and (max-width:990px){
+    nav .menu{
+        margin-left: 0px;
+        margin-bottom: 20px;
+        display: block;
+    }
+
+    nav h1 {
+        width: max-content;
+    }
+}
